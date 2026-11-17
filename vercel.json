@@ -1,0 +1,10 @@
+{
+  "crons": [
+    { "path": "/api/cron/update-statuses",   "schedule": "30 18 * * *" },
+    { "path": "/api/cron/reminders-before",  "schedule": "0 3 * * *"  },
+    { "path": "/api/cron/reminders-after",   "schedule": "5 3 * * *"  },
+    { "path": "/api/cron/reminders-inactive","schedule": "10 3 * * *" },
+    { "path": "/api/cron/retry-finalize", "schedule": "0 5 * * *" },
+    { "path": "/api/cron/monthly-report",    "schedule": "0 4 1 * *"  }
+  ]
+}
